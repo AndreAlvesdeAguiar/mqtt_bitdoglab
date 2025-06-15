@@ -14,7 +14,7 @@ int main() {
     gpio_set_dir(BOTAO_GPIO, GPIO_IN);
     gpio_pull_up(BOTAO_GPIO);
 
-    connect_to_wifi("AGUIA 2.4G", "Leticia150789");
+    connect_to_wifi("Login", "Senha");
 
     mqtt_setup("bitdog1", "192.168.15.13", "", "");
 
